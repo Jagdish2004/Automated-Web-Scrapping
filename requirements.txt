@@ -1,0 +1,12 @@
+python-dotenv==1.0.0
+requests==2.31.0
+beautifulsoup4==4.12.2
+selenium==4.18.1
+pandas==2.2.1
+openai==1.12.0
+python-telegram-bot==20.8
+fastapi==0.110.0
+uvicorn==0.27.1
+jinja2==3.1.2
+python-multipart==0.0.9
+aiofiles==23.2.1 
