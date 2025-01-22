@@ -16,4 +16,10 @@ class Config:
     
     # Logging
     LOG_LEVEL = os.getenv('LOG_LEVEL', 'INFO')
-    LOG_FILE = 'logs/automation.log' 
+    LOG_FILE = 'logs/automation.log'
+    
+    # Gemini Settings
+    GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
+    GEMINI_TEMPERATURE = 0.7
+    GEMINI_TOP_P = 0.9
+    GEMINI_TOP_K = 40 
